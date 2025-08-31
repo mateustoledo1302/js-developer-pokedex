@@ -86,6 +86,11 @@
     border-radius: 1rem;
 }
 
+.pokemon a {
+    text-decoration: none;
+    color: inherit;
+}
+
 .pokemon .number {
     color: #000;
     opacity: .3;
@@ -144,6 +149,14 @@
     background-color: #6c79db;
     border: none;
     border-radius: 1rem;
+}
+
+#loadMoreButton {
+    cursor: pointer;
+}
+
+li.pokemon {
+    cursor: pointer;
 }
 
 @media screen and (min-width: 380px) {
